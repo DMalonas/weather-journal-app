@@ -1,6 +1,6 @@
 /* Global Variables */
-let baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
-let key = '&appid=2801360c0366b677f5ef6be5eaa17f96';
+const key = '&appid=2801360c0366b677f5ef6be5eaa17f96&units=imperial';
+const baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
 let d = new Date();
 let newDate = d.toLocaleString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
